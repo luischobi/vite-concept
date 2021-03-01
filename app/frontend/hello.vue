@@ -1,7 +1,7 @@
 <template>
 <div>
 
-  <h1>Hello from vue with Vite 1</h1>
+  <h1>Hello from vue with Vite 2</h1>
   <select name="" id="" v-model="selectedColor">
     <option v-for="(color,index) in options" :key="index" :value="color">{{color}}</option>
   </select>
@@ -12,7 +12,7 @@
 export default {
   data:function(){
     return {
-      options: ["azul","rojo","amarillo","verde","blanco"],
+      options: ["azul","rojo","amarillo","verde","blanco", "morado"],
       selectedColor: "azul"
     }
   }
